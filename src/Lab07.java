@@ -1,3 +1,5 @@
+import java.util.Iterator;
+
 public class Lab07 {
     public static void main(String[] args) {
         Hash_Set<Integer> H = new Hash_Set<>();
@@ -14,13 +16,13 @@ public class Lab07 {
         h.add(6);
         h.printSet();
 
-        // isEmpty, size
-        System.out.println("Empty: " + H.isEmpty() + "\nSize: " + H.size()); // H Set
-        System.out.println("Empty: " + h.isEmpty() + "\nSize: " + h.size()); // h Set
-
-        // containAll
-        System.out.println("H is contain all of h: " + H.containsAll(h));
-        System.out.println("h is contain all of H: " + h.containsAll(H));
+//        // isEmpty, size
+//        System.out.println("Empty: " + H.isEmpty() + "\nSize: " + H.size()); // H Set
+//        System.out.println("Empty: " + h.isEmpty() + "\nSize: " + h.size()); // h Set
+//
+//        // containAll
+//        System.out.println("H is contain all of h: " + H.containsAll(h));
+//        System.out.println("h is contain all of H: " + h.containsAll(H));
 
         // addAll
         H.addAll(h);
