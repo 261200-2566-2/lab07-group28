@@ -14,13 +14,13 @@ public class Lab07 {
         h.add(6);
         h.printSet();
 
-        // isEmpty, size
-        System.out.println("Empty: " + H.isEmpty() + "\nSize: " + H.size()); // H Set
-        System.out.println("Empty: " + h.isEmpty() + "\nSize: " + h.size()); // h Set
-
-        // containAll
-        System.out.println("H is contain all of h: " + H.containsAll(h));
-        System.out.println("h is contain all of H: " + h.containsAll(H));
+//        // isEmpty, size
+//        System.out.println("Empty: " + H.isEmpty() + "\nSize: " + H.size()); // H Set
+//        System.out.println("Empty: " + h.isEmpty() + "\nSize: " + h.size()); // h Set
+//
+//        // containAll
+//        System.out.println("H is contain all of h: " + H.containsAll(h));
+//        System.out.println("h is contain all of H: " + h.containsAll(H));
 
         // addAll
         H.addAll(h);
@@ -37,9 +37,9 @@ public class Lab07 {
         H.printSet();
         H.retainAll(h);
         H.printSet();
-
-        //clear
-        H.clear();
-        H.printSet();
+//
+//        //clear
+//        H.clear();
+//        H.printSet();
     }
 }
