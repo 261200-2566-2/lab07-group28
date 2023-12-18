@@ -1,3 +1,5 @@
+import java.util.Iterator;
+
 public class Lab07 {
     public static void main(String[] args) {
         Hash_Set<Integer> H = new Hash_Set<>();
@@ -37,9 +39,9 @@ public class Lab07 {
         H.printSet();
         H.retainAll(h);
         H.printSet();
-//
-//        //clear
-//        H.clear();
-//        H.printSet();
+
+        //clear
+        H.clear();
+        H.printSet();
     }
 }
